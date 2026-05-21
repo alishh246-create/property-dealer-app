@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -13,7 +13,7 @@ import AddProperty from './pages/AddProperty'
 
 function App() {
   return (
-          <BrowserRouter>
+          <HashRouter>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -26,7 +26,7 @@ function App() {
           <Route path='/add-property' element={<AddProperty/>}/>
           </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
   )
 }
 

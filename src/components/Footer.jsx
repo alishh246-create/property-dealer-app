@@ -67,17 +67,20 @@ function Footer() {
         <div className='mt-10'>
           <h3 className='text-xl font-bold mb-4'>Find Us</h3>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57630.54056832737!2d71.6574!3d29.3956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b90e39a2a7b1d%3A0x7f45a8d9e3e0e6!2sBahawalpur%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1234567890"
-            width="40%"
-            height="250"
-          ></iframe>
+  src="https://www.google.com/maps/embed?pb=..."
+  width="100%"
+  height="300"
+  style={{ border: 0 }}
+  allowFullScreen=""
+  loading="lazy"
+  className='rounded-xl w-full'
+></iframe>
         </div>
 
         {/* Bottom Bar */}
         <div className='border-t border-gray-600 mt-8 pt-6 text-center text-gray-400'>
-          <p>© 2025 PropFinder All rights reserved.</p>
+          <p>© 2026 PropFinder All rights reserved.</p>
         </div>
-
       </div>
     </footer>
   )

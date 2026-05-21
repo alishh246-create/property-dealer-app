@@ -24,7 +24,6 @@ function Navbar() {
         {/* Logo */}
         <h1 className='text-white font-bold text-2xl'> Property Finder</h1>
 
-        {/* Hamburger - sirf mobile pe */}
         <button
           className='text-white text-2xl md:hidden'
           onClick={() => setMenuOpen(!menuOpen)}>
